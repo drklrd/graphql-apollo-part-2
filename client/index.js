@@ -10,7 +10,7 @@ import SongCreate from './components/SongCreate';
 import SongDetail from './components/SongDetail';
 
 const client = new ApolloClient({
-    dataIdFromObject : o => o.id
+    dataIdFromObject : o => o.id // very ideal in case of MONGO DB since every record will be having unique ID globally as well
 });
 
 const Root = () => {

@@ -4,8 +4,6 @@ import { graphql } from 'react-apollo';
 import { Link,hashHistory } from 'react-router';
 import { fetchSongs } from '../queries/queries';
 
-
-
 class SongCreate extends Component{
 
     constructor(props){
