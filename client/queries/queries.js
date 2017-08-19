@@ -25,3 +25,16 @@ export const SongQuery = gql`
         }
     }
 `;
+
+
+export const AddLyricToSong = gql`
+    mutation AddLyricToSong($songId : ID!, $content : String!){
+        addLyricToSong(content : $content , songId : $songId){
+            id
+            lyrics {
+                content
+            }
+        }
+    }
+
+`;
