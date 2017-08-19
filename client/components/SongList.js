@@ -28,6 +28,7 @@ class SongList extends Component{
                 id
             }
         })
+        .then(()=> this.props.data.refetch());
     }
 
     render() {
