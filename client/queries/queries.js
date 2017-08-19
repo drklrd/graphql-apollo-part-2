@@ -3,7 +3,7 @@ import gql from 'graphql-tag';
 export const fetchSongs =  gql`
     {
         songs {
-            id,
+            id
             title
         }
     }
@@ -36,6 +36,7 @@ export const AddLyricToSong = gql`
         addLyricToSong(content : $content , songId : $songId){
             id
             lyrics {
+                id
                 content
             }
         }
