@@ -39,6 +39,7 @@ export const AddLyricToSong = gql`
             lyrics {
                 id
                 content
+                likes
             }
         }
     }
