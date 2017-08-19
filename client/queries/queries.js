@@ -25,6 +25,7 @@ export const SongQuery = gql`
             lyrics {
                 id
                 content
+                likes
             }
         }
     }
@@ -42,4 +43,14 @@ export const AddLyricToSong = gql`
         }
     }
 
+`;
+
+
+export const LikeLyric = gql`
+    mutation LikeLyric($id : ID){
+        likeLyric(id : $id){
+            id
+            likes
+        }
+    }
 `;
