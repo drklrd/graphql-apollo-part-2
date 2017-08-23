@@ -1,6 +1,6 @@
-## PART - II
+## PART - II [Graphql-Apollo]
 
-Part Two for the Udemy's GraphQL course. Focussing only on the frontend part. Build on top of : 
+Part Two for the Udemy's GraphQL course. Focussing only on the frontend part. Build on top of :
 
 #### Lyrical-GraphQL
 Starter project from a GraphQL course on Udemy.com
